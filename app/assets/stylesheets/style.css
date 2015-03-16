@@ -12,6 +12,10 @@
   margin: 0 auto;
 }
 
+#sidebar_left {
+  background-color:#D8D8D8;
+}
+
 .banner {
   color: black;
   display: inline;
@@ -23,4 +27,121 @@
 
 .sidebar-menu{
   background-color: #D8D8D8;
+}
+.sidebar-menu > li {
+  background-color: white;
+}
+
+.sidebar-menu > li a {
+  color: black;
+}
+
+.sidebar-label {
+  margin-top: 1em !important;
+  padding-left: .6em !important;
+}
+
+.scrollable-menu {
+    padding-left: 10px;
+    margin-left: 0px;
+    padding-right: 10px;
+    padding-top: 0px;
+    height: auto !important;
+    max-height: 75px !important;
+    overflow-x: hidden !important;
+    background-color: white;
+}
+
+.scrollable-menu > li {
+  background-color: #D8D8D8;
+}
+
+.scrollable-menu > li:hover{
+  background-color:#8BC43F;
+}
+#holder {
+  background-color: white;
+  padding-bottom: 1em;
+}
+
+ul.scrollable-menu > li {
+  padding-left: 1em;
+  padding-top: .35em;
+}
+
+ul.scrollable-menu > li span{
+  color: black;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #8BC43F;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.people{
+  padding-bottom: 1em;
+  background-color: white;
+}
+
+.people > li {
+  color: black;
+  margin-left: .8em;
+  margin-right: .8em;
+  margin-bottom: .1em;
+  padding-left: .7em;
+  padding-top: .8em;
+  padding-bottom:.8em;
+  background-color: #D8D8D8;
+}
+
+.people > li:hover{
+  background-color:#8BC43F;
+}
+
+.sidebar-title {
+  color: black;
+}
+
+.white-container {
+  background-color: white;
+  padding-bottom: 1em;
+}
+
+#grades {
+  text-align: center;
+  background-color: #D8D8D8;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-bottom: .5em;
+}
+
+#grades > button {
+  color: black;
+  width: 3em;
+  height: 3em;
+}
+
+.labeltag{
+  color: black;
+  padding-left: 1em;
+  margin-bottom: .5em;
+}
+.dropdown {
+  width: 15.7em;
+  margin-left: 1em;
+  margin-bottom: .5em;
+}
+
+button.btn {
+  background-color:#D8D8D8;
+  width: 15.7em;
 }
