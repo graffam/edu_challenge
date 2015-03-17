@@ -145,3 +145,18 @@ button.btn {
   background-color:#D8D8D8;
   width: 15.7em;
 }
+
+#lineChart {
+  background-color: white;
+}
+
+.display {
+  width: 450px;
+  height: 225px;
+  background-color: white;
+}
+
+.infoInset {
+  margin-left: 16px;
+  margin-right: 16px;
+}
