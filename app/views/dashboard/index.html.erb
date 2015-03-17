@@ -58,27 +58,27 @@
                     <div id="holder">
                     <ul class='scrollable-menu'>
                       <li>
-                          <a href="pages_calendar.html">
+                          <a>
                               <span class="sidebar-title">School1</span>
                           </a>
                       </li>
                       <li>
-                          <a href="documentation/index.html">
+                          <a>
                               <span class="sidebar-title">School2</span>
                           </a>
                       </li>
                     <li class="active">
-                        <a href="dashboard.html">
+                        <a>
                             <span class="sidebar-title">School3</span>
                         </a>
                     </li>
                     <li class="active">
-                        <a href="dashboard.html">
+                        <a>
                             <span class="sidebar-title">School4</span>
                         </a>
                     </li>
                     <li class="active">
-                        <a href="dashboard.html">
+                        <a>
                             <span class="sidebar-title">School5</span>
                         </a>
                     </li>
@@ -87,12 +87,12 @@
                     <li class="sidebar-label pt15">Our People</li>
                     <div class="people">
                     <li>
-                        <a class="accordion-toggle" href="#">
+                        <a>
                             <span class="sidebar-title">Faculty/staff</span>
                         </a>
                     </li>
                     <li>
-                        <a class="accordion-toggle" href="#">
+                        <a>
                             <span class="sidebar-title">Students</span>
                         </a>
                     </li>
@@ -102,12 +102,12 @@
                         </a>
                     </li>
                     <li>
-                        <a class="accordion-toggle" href="#">
+                        <a>
                             <span class="sidebar-title">Coaches</span>
                         </a>
                     </li>
                     <li>
-                        <a class="accordion-toggle" href="#">
+                        <a>
                             <span class="sidebar-title">Volunteers</span>
                         </a>
                     </li>
@@ -146,26 +146,24 @@
                     <li class="sidebar-label pt20">My Groups</li>
                     <div class="people">
                     <li>
-                        <a class="accordion-toggle" href="#">
+                        <a>
                             <span class="sidebar-title">ESL 9th Graders</span>
                         </a>
                     </li>
                     <li>
-                        <a class="accordion-toggle" href="#">
+                        <a>
                             <span class="sidebar-title">Absentee Issues 9-12</span>
                         </a>
                     </li>
                     <li>
-                        <a class="accordion-toggle" href="#">
-                            <span class="sidebar-title">10-12 Girls Math</span>
+                        <a>
+                          <span class="sidebar-title">10-12 Girls Math</span>
                         </a>
                     </li>
                   </div>
-                    <!-- sidebar progress bars -->
                 </ul>
             </div>
         </aside>
-
         <!-- Start: Content-Wrapper -->
         <section id="content_wrapper">
             <!-- Begin: Content -->
@@ -191,17 +189,15 @@
                           </div>
                         </div>
                     </div>
-
+                    <div class="row">
+                      <div class="col-md-6 admin-grid">
+                        <canvas id="lineChart2" width="450" height="225"></canvas>
+                      </div>
+                    </div>
                 </div>
             </section>
-            <!-- End: Content -->
         </section>
-        <!-- End: Content-Wrapper -->
     </div>
-    <!-- End: Main -->
-
-    <!-- Sparklines CDN -->
-    <!-- Page Javascript -->
     <script type="text/javascript">
         jQuery(document).ready(function() {
         $('button.grade').click(function () {
@@ -210,9 +206,6 @@
         });
       });
     </script>
-
-    <!-- END: PAGE SCRIPTS -->
-
 </body>
 
 </html>

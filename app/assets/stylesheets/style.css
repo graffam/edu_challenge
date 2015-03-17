@@ -160,3 +160,11 @@ button.btn {
   margin-left: 16px;
   margin-right: 16px;
 }
+
+#lineChart2 {
+  background-color: white;
+}
+
+#content {
+  padding-top: .9em;
+}
